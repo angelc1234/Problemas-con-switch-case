@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio en clase</title>
+</head>
+<script>
+	/*Modificar los alert por document.write asignacion en clase 13 de octubre 2021*/
+    var compra=parseFloat(prompt("Ingresa el valor de la compra"))
+	var edad=parseInt(prompt("Ingresa tu edad"))
+
+	switch(edad){
+		case 18: document.write("Tienes el 10% de descuento")
+		document.write(`Descuento: ${compra*0.1} `)
+		document.write(`Total a pagar: ${compra-(compra*0.1)} `)
+		break
+		case 25: document.write("Tienes el 25% de descuento")
+		document.write(`Descuento: ${compra*0.2} `)
+		document.write(`Total a pagar: ${compra-(compra*0.2)} `)
+		break
+		case 40: document.write("Tienes el 40% de descuento")
+		document.write(`Descuento: ${compra*0.4} `)
+		document.write(`Total a pagar: ${compra-(compra*0.4)} `)
+		break
+		case 50: document.write("Tienes el 50% de descuento")
+		document.write(`Descuento: ${compra*0.5} `)
+		document.write(`Total a pagar: ${compra-(compra*0.5)} `)
+		break
+		default: document.write("Lo siento, tu edad no esta contemplada en nuestro programa")
+	}
+</script>
+<body>
+    
+</body>
+</html>
